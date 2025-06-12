@@ -126,6 +126,18 @@ const routes = [  {
     },
     component: () => import('@/components/user/coupon/ProductView.vue')
   },
+  /**
+   * 会员路由
+   * */ 
+  {
+    path: '/member',
+    name: 'member',
+    meta: {
+      showTabBar: false
+    },
+    component: () => import('@/components/user/VIP/compontents/PointsView.vue')
+    
+  },
   /*
   消息路由信息
   */ 
