@@ -9,7 +9,7 @@
     </div>
 </template>
 <script>
-import LoginView from './index/LoginView.vue'
+import LoginView from './index/TopView.vue'
 import SwipeView from './index/SwipeView.vue'
 import ListView from './index/ListView.vue'
 import Suggestion from './index/SuggestionView.vue'

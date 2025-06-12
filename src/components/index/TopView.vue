@@ -1,7 +1,7 @@
 <template>
   <div class="login-view">
       <div class="left">
-        <router-link class="router" to="/user"><van-image :src="touxiang" class="img" /></router-link>
+        <router-link class="router" to="/member"><h3>签到<br>领积分</h3></router-link>
       </div>
     <van-search placeholder="请输入搜索关键词" class="right" />
   </div>
@@ -35,13 +35,18 @@ export default {
   align-items: center;
 }
 .left {
-  width: auto; 
+  background-color: #fff;
+  margin-left: 4vw;
+  width: 10vw;
+  height: 100%;
+  font-size: 10px;
+  /* width: auto; 
   height: 100%;
   display: flex;
-  align-items: center;
+  align-items: center; */
 }
 .right {
-  width: calc(100% - 30px);
+  width: calc(100% - 50px);
   height: 100%; 
 }
 .img {
